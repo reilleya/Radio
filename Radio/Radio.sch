@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Radio-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -355,26 +356,56 @@ Wire Wire Line
 Connection ~ 1300 2950
 Wire Wire Line
 	1300 2950 1350 2950
-Connection ~ 5450 4150
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E0856CD
+P 6700 2850
+F 0 "J2" H 6800 2825 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6800 2734 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6700 2850 50  0001 C CNN
+F 3 " ~" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2850 6500 2850
 $Comp
 L XB3:XB3 U2
 U 1 1 5DE33CF6
 P 5450 3250
 F 0 "U2" H 5450 4031 50  0000 C CNN
 F 1 "XB3" H 5450 3940 50  0000 C CNN
-F 2 "XCVR_XB3-24Z8CM-J:XCVR_XB3-24Z8CM-J" H 5450 3250 50  0001 C CNN
+F 2 "Radio:XB3-24Z8RM-J" H 5450 3250 50  0001 C CNN
 F 3 "" H 5450 3250 50  0001 C CNN
 	1    5450 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 4150 5350 4150
+	5200 4150 5300 4150
+Connection ~ 5300 4150
 Wire Wire Line
-	5450 4150 5550 4150
-Connection ~ 5350 4150
+	5300 4150 5400 4150
+Connection ~ 5400 4150
 Wire Wire Line
-	5350 4150 5450 4150
-Connection ~ 5550 4150
+	5400 4150 5450 4150
+Connection ~ 5500 4150
 Wire Wire Line
-	5550 4150 5650 4150
+	5500 4150 5600 4150
+Connection ~ 5600 4150
+Wire Wire Line
+	5600 4150 5700 4150
+Connection ~ 5450 4150
+Wire Wire Line
+	5450 4150 5500 4150
+$Comp
+L power:GND #PWR?
+U 1 1 5E0938CD
+P 6700 3050
+F 0 "#PWR?" H 6700 2800 50  0001 C CNN
+F 1 "GND" H 6705 2877 50  0000 C CNN
+F 2 "" H 6700 3050 50  0001 C CNN
+F 3 "" H 6700 3050 50  0001 C CNN
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
