@@ -362,7 +362,7 @@ U 1 1 5E0856CD
 P 6700 2850
 F 0 "J2" H 6800 2825 50  0000 L CNN
 F 1 "Conn_Coaxial" H 6800 2734 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 6700 2850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 6700 2850 50  0001 C CNN
 F 3 " ~" H 6700 2850 50  0001 C CNN
 	1    6700 2850
 	1    0    0    -1  
@@ -409,10 +409,10 @@ F 3 "" H 6700 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5E0B5CE0
 P 4200 3750
-F 0 "C?" H 4100 3850 50  0000 L CNN
+F 0 "C8" H 4100 3850 50  0000 L CNN
 F 1 "1uF" H 4200 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4238 3600 50  0001 C CNN
 F 3 "~" H 4200 3750 50  0001 C CNN
@@ -420,10 +420,10 @@ F 3 "~" H 4200 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 5E0B6937
 P 4000 3750
-F 0 "C?" H 3700 3800 50  0000 L CNN
+F 0 "C7" H 3700 3800 50  0000 L CNN
 F 1 "8.2pf" H 3700 3700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 3600 50  0001 C CNN
 F 3 "~" H 4000 3750 50  0001 C CNN
